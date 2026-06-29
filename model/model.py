@@ -43,6 +43,7 @@ class Model:
                 score -= e[2]["weight"]
             listNodesPesata.append((n,score))
 
+
         listNodesPesata.sort(key=lambda x:x[1], reverse=True)
         return listNodesPesata[0:5]
 
